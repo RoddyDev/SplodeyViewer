@@ -22,8 +22,7 @@ namespace splodey_next
                 nint baseAddr = 0;
                 int room_id = 0;
                 int old_room_id = 0;
-
-
+                
                 while (startReading)
                 {
                     baseAddr = processHandler.GetModuleBase("Splodey.exe");
@@ -63,8 +62,7 @@ namespace splodey_next
                             }));
                         }
                     }
-
-
+                    Thread.Sleep(100);
                 }
             }
             catch (Exception)
@@ -78,10 +76,6 @@ namespace splodey_next
                 }));
                 startReading = false;
 
-            }
-            finally
-            {
-                Thread.Sleep(50);
             }
         }
 

@@ -137,7 +137,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(480, 320);
             Name = "SplodeyViewer";
-            Text = "Splodey Next Level Viewer";
+            Text = "Splodey Next Level Viewer v1.1";
             ((System.ComponentModel.ISupportInitialize)levelPicture).EndInit();
             ResumeLayout(false);
             PerformLayout();
