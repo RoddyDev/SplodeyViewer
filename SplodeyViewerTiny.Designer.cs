@@ -38,7 +38,6 @@
             // levelPicture
             // 
             levelPicture.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            levelPicture.Image = (Image)resources.GetObject("levelPicture.Image");
             levelPicture.Location = new Point(4, 4);
             levelPicture.Name = "levelPicture";
             levelPicture.Size = new Size(792, 442);
@@ -81,7 +80,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(80, 80);
             Name = "SplodeyViewerTiny";
-            Text = "Form1";
+            Text = "Splodey Next Level Viewer (Borderless) v1.1";
             ((System.ComponentModel.ISupportInitialize)levelPicture).EndInit();
             ResumeLayout(false);
             PerformLayout();

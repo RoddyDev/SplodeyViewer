@@ -60,10 +60,9 @@ namespace SplodeyViewerTiny
                         catch (Exception)
                         {
                             // Do nothing. Some images missing are intentional.
-                        }
+                        }                        
                     }
-
-
+                    Thread.Sleep(100);
                 }
             }
             catch (Exception)
@@ -77,10 +76,6 @@ namespace SplodeyViewerTiny
                     debug_text.Visible = true;
                     debug_text.Text = "Error while reading Splodey's memory.";
                 }));
-            }
-            finally
-            {
-                Thread.Sleep(50);
             }
         }
 

@@ -12,17 +12,12 @@
     <Copyright>roddy 2024</Copyright>
     <PackageIcon>aaaaaaa.png</PackageIcon>
     <ApplicationIcon>aaaaaaa.ico</ApplicationIcon>
+    <Title>Splodey Level Viewer (Borderless) v1.1</Title>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="aaaaaaa.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="C:\Users\rodri\Pictures\Screenshots\aaaaaaa.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
   <ItemGroup>
