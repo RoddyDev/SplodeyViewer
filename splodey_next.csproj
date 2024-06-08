@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>aaaaaaa.ico</ApplicationIcon>
+    <Title>Splodey Next Level Viewer</Title>
+    <Authors>roddy</Authors>
+    <Company>© roddy 2024 (not copyrighted it just looks cool)</Company>
+    <Description>View the next level for easier movement planning.</Description>
+    <Copyright>© roddy 2024 (not copyrighted it just looks cool)</Copyright>
+    <PackageIcon>aaaaaaa.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LevelImages\**" />
+    <EmbeddedResource Remove="LevelImages\**" />
+    <None Remove="LevelImages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Bitmap1.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="aaaaaaa.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\rodri\Pictures\Screenshots\aaaaaaa.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="swed64" Version="1.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
