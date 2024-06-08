@@ -1,4 +1,4 @@
-namespace splodey_next
+namespace SplodeyViewerTiny
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace splodey_next
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new SplodeyViewer());
+            Application.Run(new SplodeyViewerTiny());
         }
     }
 }
