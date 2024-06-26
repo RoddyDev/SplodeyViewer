@@ -35,7 +35,7 @@ namespace SplodeyViewerTiny
                 while (startReading)
                 {
                     baseAddr = processHandler.GetModuleBase("Splodey.exe");
-                    room_id = processHandler.ReadInt(baseAddr, 0xC1FB88); // For version 1.0.8
+                    room_id = processHandler.ReadInt(baseAddr, 0xC2C498); // For version 1.1.2
                     if (room_id != old_room_id)
                     {
                         try
@@ -126,11 +126,6 @@ namespace SplodeyViewerTiny
                     return;
             }
             base.WndProc(ref m);
-        }
-
-        private void levelPicture_MouseClick(object sender, MouseEventArgs e)
-        {
-
         }
 
         private void levelPicture_MouseDown(object sender, MouseEventArgs e)

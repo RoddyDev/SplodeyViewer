@@ -12,8 +12,10 @@
     <Copyright>roddy 2024</Copyright>
     <PackageIcon>aaaaaaa.png</PackageIcon>
     <ApplicationIcon>aaaaaaa.ico</ApplicationIcon>
-    <Title>Splodey Level Viewer (Borderless) v1.1</Title>
-    <Version>1.1.0</Version>
+    <Title>Splodey Level Viewer (Borderless) v1.1.2</Title>
+    <Version>1.1.2</Version>
+    <AssemblyVersion>1.1.2</AssemblyVersion>
+    <FileVersion>1.1.2</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

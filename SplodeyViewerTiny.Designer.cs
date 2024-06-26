@@ -44,7 +44,6 @@
             levelPicture.SizeMode = PictureBoxSizeMode.StretchImage;
             levelPicture.TabIndex = 1;
             levelPicture.TabStop = false;
-            levelPicture.MouseClick += levelPicture_MouseClick;
             levelPicture.MouseDown += levelPicture_MouseDown;
             levelPicture.MouseMove += levelPicture_MouseMove;
             levelPicture.MouseUp += levelPicture_MouseUp;
@@ -80,7 +79,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             MinimumSize = new Size(80, 80);
             Name = "SplodeyViewerTiny";
-            Text = "Splodey Next Level Viewer (Borderless) v1.1";
+            Text = "Splodey Next Level Viewer (Borderless) v1.1.2";
             ((System.ComponentModel.ISupportInitialize)levelPicture).EndInit();
             ResumeLayout(false);
             PerformLayout();
