@@ -13,9 +13,9 @@
     <Description>View the next level for easier movement planning.</Description>
     <Copyright>© roddy 2024 (not copyrighted it just looks cool)</Copyright>
     <PackageIcon>aaaaaaa.png</PackageIcon>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
+    <FileVersion>1.1.2.0</FileVersion>
+    <Version>1.1.2</Version>
     <Product>Splodey Next Level Viewer</Product>
   </PropertyGroup>
 
