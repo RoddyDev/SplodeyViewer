@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hLN0TpdHK3E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rodrigo\\Documents\\GitHub\\SplodeyViewer\\splodey_next.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rodrigo\\.nuget\\packages\\swed64\\1.0.5\\swed64.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

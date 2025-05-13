@@ -26,7 +26,7 @@ namespace splodey_next
                 while (startReading)
                 {
                     baseAddr = processHandler.GetModuleBase("Splodey.exe");
-                    room_id = processHandler.ReadInt(baseAddr, 0xC2C498); // For version 1.1.2
+                    room_id = processHandler.ReadInt(baseAddr, 0xBB1880); // For version 1.1.4
                     if (room_id != old_room_id)
                     {
                         try
